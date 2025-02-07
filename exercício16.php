@@ -1,0 +1,1 @@
+<!-- Crie um algoritmo que leia um array de 10 números inteiros e depois exiba os números na ordem inversa à que foram inseridos. Sem utilizar o array_reverse. -->

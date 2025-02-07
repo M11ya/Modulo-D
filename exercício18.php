@@ -1,0 +1,1 @@
+<!-- Escreva um algoritmo que leia dois arrays de 10 números cada. Crie um terceiro array que contenha os elementos intercalados dos dois primeiros arrays. -->

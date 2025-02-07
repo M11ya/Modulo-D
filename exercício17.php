@@ -1,0 +1,1 @@
+<!-- Elabore um algoritmo que leia 15 números e armazene-os em um vetor. Em seguida, calcule e exiba a soma dos elementos que estão em posições pares (índices 0, 2, 4...). -->

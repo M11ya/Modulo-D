@@ -1,0 +1,1 @@
+<!-- Faça um algoritmo que leia 20 números e armazene-os em um vetor. Depois, exiba quantos números ímpares existem no vetor. -->
