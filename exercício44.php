@@ -5,7 +5,7 @@ class Usuario {
     private $nome;
     private $email;
     private $senha;
-    private static $usuarios = [];
+    public static $usuarios = [];
     private static $proximoId = 1; 
 
     public function __construct($nome, $email, $senha) {

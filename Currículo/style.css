@@ -1,0 +1,116 @@
+body {  
+    font-family: 'Arial', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    line-height: 1.6;  
+    background-color: #f4f4f4;  
+    color: #333;  
+}  
+
+header {  
+    background: #007BFF;  
+    color: #fff;  
+    padding: 10px 0;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    text-align: center;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 20px;  
+}  
+
+nav a {  
+    color: white;  
+    text-decoration: none;  
+    transition: color 0.3s;  
+}  
+
+nav a:hover {  
+    color: #FFD700; 
+}  
+
+main {  
+    max-width: 800px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    background: white;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}  
+
+#perfil {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 20px;  
+}
+
+.foto-perfil {  
+    width: 130px;  
+    height: 130px;  
+    border-radius: 50%;  
+    margin-right: 20px;  
+    border: 2px solid #007BFF;  
+}
+ 
+#perfil {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 20px;  
+}  
+
+.foto-perfil {  
+    width: 130px;  
+    height: 130px;  
+    border-radius: 50%;  
+    margin-right: 20px;  
+    border: 2px solid #007BFF;  
+}  
+
+.informacao-perfil h1 {  
+    margin: 0;  
+    font-size: 24px;  
+}  
+
+.informacao-perfil p {  
+    color: #666;  
+}  
+
+h2 {  
+    background-color: #007BFF;  
+    color: white;  
+    padding: 10px;  
+    border-radius: 5px;  
+    margin-top: 20px;  
+}  
+
+.experiencia-lista, .educacao-lista {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+.experiencia-lista li, .educacao-lista li {  
+    margin-bottom: 15px;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+}  
+
+.experiencia-lista li h3, .educacao-lista li h3 {  
+    margin: 0;  
+    color: #007BFF;  
+} 
+
+footer {  
+    text-align: center;  
+    padding: 10px;  
+    background: #333;  
+    color: white;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}  

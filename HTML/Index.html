@@ -1,0 +1,75 @@
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">  
+    <title>Meu Site - Re:ZERO</title>  
+</head>  
+
+<body>  
+
+<nav class="navbar">  
+    <a href="index.html">Menu</a>    
+    <div class="dropdown">  
+        <a href="#" class="dropbtn">Personagens</a>  
+        <div class="dropdown-content">  
+            <a href="personagens.html#masculinos">Masculinos</a>  
+            <a href="personagens.html#femininos">Femininos</a>  
+        </div>  
+    </div>  
+    <a href="ifs.html">IFs</a>  
+    <a href="noticia.html">Notícia</a>  
+    <a href="contato.html">Contato</a>  
+</nav> 
+
+    <header>  
+        <h1>Re:ZERO - Starting Life in Another World</h1>  
+        <p>Re:ゼロ</p>  
+        <img src="https://i.redd.it/xk9vhv6nuinx.jpg" alt="Imagem de Re:ZERO" style="display: block; margin: auto;">  
+    </header>  
+
+    <div class="article">
+        <section id="Enredo">
+            <h2>Re:ZERO - Starting Life in Another World</h2>
+            <p>Re:ZERO - Starting Life in Another World é um anime que segue a história de Natsuki Subaru...</p>
+            <span class="read-more" onclick="toggleContent(this)">Ler Mais...</span>
+            <div class="more-content">
+                <p>O aluno colegial Natsuki Subaru foi invocado de repente para outro mundo enquanto voltava da loja de  
+                    conveniência. Com a maior crise de sua vida sendo levado a outro mundo e sem sinal algum de quem o tenha  
+                    invocado, as coisas ficam piores ainda quando ele é atacado.  
+                    Mas então ele é salvo por uma misteriosa garota de cabelos prateados com um gato fada e Subaru se junta  
+                    a ela para retribuir o favor. Quando finalmente conseguem uma pista,  
+                    Subaru e a garota são atacados e mortos por alguém. Subaru então acorda no lugar que foi invocado e  
+                    percebe que ganhou a habilidade "Retorno Por Morte" e se tornou um garoto inútil que só tem a habilidade  
+                    de voltar no tempo morrendo.  
+                    Apesar do desespero, ele pode salvar a garota da morte certa?</p>  
+        </section>
+    </div>
+    </div>
+
+
+    <script>
+        function toggleContent(el) {
+            const moreContent = el.nextElementSibling; 
+            if (moreContent.style.display === "none" || moreContent.style.display === "") {
+                moreContent.style.display = "block"; 
+                el.textContent = "Ler Menos..."; 
+            } else {
+                moreContent.style.display = "none";
+                el.textContent = "Ler Mais..."; 
+            }
+        }  
+    </script>
+
+        <section id="contato">  
+            <h2>Contato</h2>  
+            <p>Para entrar em contato, você pode usar o seguinte endereço de e-mail: <a  
+                    href="mailto:bizzonhos@gmail.com">bizzonhos@gmail.com</a>. Aguarde o retorno!</p>  
+        </section>  
+    </main>  
+
+</body>  
+
+</html>

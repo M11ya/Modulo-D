@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Re:ZERO IFs</title>
+</head>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Menu</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Personagens</a>
+            <div class="dropdown-content">
+                <a href="personagens.html#masculinos">Masculinos</a>
+                <a href="personagens.html#femininos">Femininos</a>
+            </div>
+        </div>
+        <a href="ifs.html">IFs</a>
+        <a href="noticia.html">Notícia</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <div class="article">
+        <section id="ifs">
+            <h2>Re:ZERO - Starting Life in Another World</h2>
+            <p>Re:ZERO - Starting Life in Another World é um anime que segue a história de Natsuki Subaru...</p>
+            <span class="read-more" onclick="toggleContent(this)">Ler Mais...</span>
+            <div class="more-content">
+                <p>"Re:Zero IF" são capítulos da Web Novel postados em Shōsetsuka ni Narō a cada Dia da Mentira.
+                    Para celebrar o aniversário de Natsuki Subaru, o autor escreve uma história que se desvia da Web
+                    Novel
+                    original.
+                    Eles são cerca de quatro vezes mais longos do que os capítulos normais da Web Novel e nesses
+                    capítulos,
+                    é mostrado o que teria acontecido se Natsuki Subaru tivesse feito algo contrário ao que realmente
+                    fez.
+                    Cada uma das histórias de What IF se assemelha a um dos sete pecados capitais.</p>
+        </section>
+    </div>
+    </div>
+
+    <div class="article">
+        <section id="ifs">
+            <h2>Re:ZERO - Starting Life in Another World</h2>
+            <p>Re:ZERO - Starting Life in Another World é um anime que segue a história de Natsuki Subaru...</p>
+            <span class="read-more" onclick="toggleContent(this)">Ler Mais...</span>
+            <div class="more-content">
+                <p>"Re:Zero IF" são capítulos da Web Novel postados em Shōsetsuka ni Narō a cada Dia da Mentira.
+                    Para celebrar o aniversário de Natsuki Subaru, o autor escreve uma história que se desvia da Web
+                    Novel
+                    original.
+                    Eles são cerca de quatro vezes mais longos do que os capítulos normais da Web Novel e nesses
+                    capítulos,
+                    é mostrado o que teria acontecido se Natsuki Subaru tivesse feito algo contrário ao que realmente
+                    fez.
+                    Cada uma das histórias de What IF se assemelha a um dos sete pecados capitais.</p>
+        </section>
+    </div>
+    </div>
+
+
+    <script>
+        function toggleContent(el) {
+            const moreContent = el.nextElementSibling; 
+            if (moreContent.style.display === "none" || moreContent.style.display === "") {
+                moreContent.style.display = "block"; 
+                el.textContent = "Ler Menos..."; 
+            } else {
+                moreContent.style.display = "none";
+                el.textContent = "Ler Mais..."; 
+            }
+        }  
+    </script>
+
+
+</body>
+
+</html>
